@@ -65,7 +65,7 @@
 
         <header-file src="src/ios/AdMobMediationApplovin.h" />
         <source-file src="src/ios/AdMobMediationApplovin.m" />
-        <framework src="GoogleMobileAdsMediationAppLovin" type="podspec"/>
+        <framework src="GoogleMobileAdsMediationAppLovin" type="podspec" spec="~> 5.1.2.0"/>
     </platform>
 
 
