@@ -13,9 +13,9 @@
 
     <preference name="APPLOVIN_SDK_KEY" value=""/>
 
-    <!--<js-module src="www/AdMob.js" name="AdMob">-->
-        <!--<clobbers target="AdMob"/>-->
-    <!--</js-module>-->
+    <js-module src="www/AdMobMediationApplovin.js" name="AdMobMediationApplovin">
+        <clobbers target="AdMobMediationApplovin"/>
+    </js-module>
     <!--<js-module src="www/AdMobInterface.js" name="AdMobInterface">-->
         <!--<clobbers target="AdMobInterface"/>-->
     <!--</js-module>-->
