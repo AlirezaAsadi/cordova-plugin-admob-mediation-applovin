@@ -20,7 +20,6 @@
         <!--<clobbers target="AdMobInterface"/>-->
     <!--</js-module>-->
 
-    <dependency id="cordova-plugin-admob" url="https://github.com/mingz2013/cordova-plugin-admob"/>
 
     <!-- android -->
     <platform name="android">
