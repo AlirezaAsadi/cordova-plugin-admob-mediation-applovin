@@ -42,6 +42,7 @@ public class AdMobMediationApplovinPlugin extends CordovaPlugin {
         if (action.equals("initSDK")) {
             this.execActionInitSDK(params, callbackContext);
             return true;
+        }
 
         return super.execute(action, args, callbackContext);
     }
