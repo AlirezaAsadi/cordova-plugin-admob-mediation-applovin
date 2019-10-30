@@ -10,6 +10,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.app.Activity;
+import android.content.Context;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -62,6 +63,7 @@ public class AdMobMediationApplovinPlugin extends CordovaPlugin {
 
 
     private void initSDK(JSONObject args) throws JSONException {
+        Context context = this.cordova.getActivity().getApplicationContext();
         AppLovinSdk.initializeSdk(context);
     }
 
