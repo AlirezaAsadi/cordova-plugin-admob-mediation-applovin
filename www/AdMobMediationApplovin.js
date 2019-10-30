@@ -79,7 +79,7 @@ function defaults(o, defaultObject) {
 
 
 if (typeof module !== undefined && module.exports) {
-    module.exports = AdMob;
+    module.exports = AdMobMediationApplovin;
 }
 
 
