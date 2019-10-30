@@ -9,7 +9,7 @@ var AdMobMediationApplovin = {};
  * @param {Function} params.onFailure - optional on failure callback
  */
 AdMobMediationApplovin.initSDK = function (params) {
-    console.log("ADmob.init...params:");
+    console.log("AdMobMediationApplovin.init:");
 
 
     callPlugin('initSDK', {}, function () {
